@@ -22,7 +22,7 @@
   "dependencies": {
     "hubot": ">= 2.6.0 < 3.0.0",
     "hubot-scripts": ">= 2.5.0 < 3.0.0",
-    "hubot-hipchat": "git://github.com/phillipalexander/hubot-hipchat.git"
+    "hubot-hipchat": "git://github.com/phillipalexander/hubot-hipchat.git#patch-1"
   },
   "engines": {
     "node": ">= 0.8.x",
