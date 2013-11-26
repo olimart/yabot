@@ -1,0 +1,97 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'install' ]
+2 info using npm@1.3.14
+3 info using node@v0.10.22
+4 verbose node symlink /usr/bin/node
+5 verbose readDependencies using package.json deps
+6 verbose install where, deps [ '/home/zahid/Projects/yabot',
+6 verbose install   [ 'hubot', 'hubot-scripts', 'hubot-hipchat' ] ]
+7 info preinstall hosted-hubot@2.5.1
+8 verbose readDependencies using package.json deps
+9 verbose cache add [ 'hubot-hipchat@git@github.com:hipchat/hubot-hipchat.git',
+9 verbose cache add   null ]
+10 verbose cache add name=undefined spec="hubot-hipchat@git@github.com:hipchat/hubot-hipchat.git" args=["hubot-hipchat@git@github.com:hipchat/hubot-hipchat.git",null]
+11 verbose parsed url { protocol: null,
+11 verbose parsed url   slashes: null,
+11 verbose parsed url   auth: null,
+11 verbose parsed url   host: null,
+11 verbose parsed url   port: null,
+11 verbose parsed url   hostname: null,
+11 verbose parsed url   hash: null,
+11 verbose parsed url   search: null,
+11 verbose parsed url   query: null,
+11 verbose parsed url   pathname: 'hubot-hipchat@git@github.com:hipchat/hubot-hipchat.git',
+11 verbose parsed url   path: 'hubot-hipchat@git@github.com:hipchat/hubot-hipchat.git',
+11 verbose parsed url   href: 'hubot-hipchat@git@github.com:hipchat/hubot-hipchat.git' }
+12 verbose cache add name="hubot-hipchat" spec="git@github.com:hipchat/hubot-hipchat.git" args=["hubot-hipchat","git@github.com:hipchat/hubot-hipchat.git"]
+13 verbose parsed url { protocol: null,
+13 verbose parsed url   slashes: null,
+13 verbose parsed url   auth: null,
+13 verbose parsed url   host: null,
+13 verbose parsed url   port: null,
+13 verbose parsed url   hostname: null,
+13 verbose parsed url   hash: null,
+13 verbose parsed url   search: null,
+13 verbose parsed url   query: null,
+13 verbose parsed url   pathname: 'git@github.com:hipchat/hubot-hipchat.git',
+13 verbose parsed url   path: 'git@github.com:hipchat/hubot-hipchat.git',
+13 verbose parsed url   href: 'git@github.com:hipchat/hubot-hipchat.git' }
+14 verbose addNamed [ 'hubot-hipchat', 'git@github.com:hipchat/hubot-hipchat.git' ]
+15 verbose addNamed [ null, null ]
+16 verbose already installed skipping hubot@>= 2.5.1 /home/zahid/Projects/yabot
+17 verbose already installed skipping hubot-scripts@>= 2.4.2 /home/zahid/Projects/yabot
+18 silly lockFile 5f843a5d-ub-com-hipchat-hubot-hipchat-git hubot-hipchat@git@github.com:hipchat/hubot-hipchat.git
+19 verbose lock hubot-hipchat@git@github.com:hipchat/hubot-hipchat.git /home/zahid/.npm/5f843a5d-ub-com-hipchat-hubot-hipchat-git.lock
+20 info addNameTag [ 'hubot-hipchat', 'git@github.com:hipchat/hubot-hipchat.git' ]
+21 verbose url raw hubot-hipchat
+22 verbose url resolving [ 'https://registry.npmjs.org/', './hubot-hipchat' ]
+23 verbose url resolved https://registry.npmjs.org/hubot-hipchat
+24 info trying registry request attempt 1 at 10:49:40
+25 verbose etag "7T97T6T6GZORMHB9AEK7WBUQK"
+26 http GET https://registry.npmjs.org/hubot-hipchat
+27 http 304 https://registry.npmjs.org/hubot-hipchat
+28 silly registry.get cb [ 304,
+28 silly registry.get   { server: 'CouchDB/1.3.1 (Erlang OTP/R15B03)',
+28 silly registry.get     etag: '"7T97T6T6GZORMHB9AEK7WBUQK"',
+28 silly registry.get     date: 'Tue, 26 Nov 2013 05:49:41 GMT',
+28 silly registry.get     'content-length': '0' } ]
+29 verbose etag hubot-hipchat from cache
+30 info maybeGithub Attempting git@github.com:hipchat/hubot-hipchat.git from git://github.com/git@github.com:hipchat/hubot-hipchat.git
+31 silly lockFile dcf33975-ub-com-hipchat-hubot-hipchat-git git://github.com/git@github.com:hipchat/hubot-hipchat.git
+32 verbose lock git://github.com/git@github.com:hipchat/hubot-hipchat.git /home/zahid/.npm/dcf33975-ub-com-hipchat-hubot-hipchat-git.lock
+33 verbose addRemoteGit [ 'git://github.com/git@github.com:hipchat/hubot-hipchat.git',
+33 verbose addRemoteGit   'master' ]
+34 verbose git clone git://github.com/git@github.com:hipchat/hubot-hipchat.git Cloning into bare repository '/home/zahid/.npm/_git-remotes/git-github-com-git-github-com-hipchat-hubot-hipchat-git-dcf33975'...
+34 verbose git clone git://github.com/git@github.com:hipchat/hubot-hipchat.git
+34 verbose git clone git://github.com/git@github.com:hipchat/hubot-hipchat.git fatal: remote error:
+34 verbose git clone git://github.com/git@github.com:hipchat/hubot-hipchat.git   git@github.com:hipchat/hubot-hipchat.git is not a valid repository name
+34 verbose git clone git://github.com/git@github.com:hipchat/hubot-hipchat.git   Email support@github.com for help
+35 silly lockFile dcf33975-ub-com-hipchat-hubot-hipchat-git git://github.com/git@github.com:hipchat/hubot-hipchat.git
+36 silly lockFile dcf33975-ub-com-hipchat-hubot-hipchat-git git://github.com/git@github.com:hipchat/hubot-hipchat.git
+37 info maybeGithub Attempting git@github.com:hipchat/hubot-hipchat.git from git+ssh://git@github.com:git@github.com:hipchat/hubot-hipchat.git
+38 silly lockFile 6bccb5ba-ub-com-hipchat-hubot-hipchat-git git+ssh://git@github.com:git@github.com:hipchat/hubot-hipchat.git
+39 verbose lock git+ssh://git@github.com:git@github.com:hipchat/hubot-hipchat.git /home/zahid/.npm/6bccb5ba-ub-com-hipchat-hubot-hipchat-git.lock
+40 verbose addRemoteGit [ 'git@github.com:git@github.com:hipchat/hubot-hipchat.git',
+40 verbose addRemoteGit   'master' ]
+41 verbose git clone git@github.com:git@github.com:hipchat/hubot-hipchat.git Cloning into bare repository '/home/zahid/.npm/_git-remotes/git-github-com-git-github-com-hipchat-hubot-hipchat-git-311b6a1e'...
+41 verbose git clone git@github.com:git@github.com:hipchat/hubot-hipchat.git
+41 verbose git clone git@github.com:git@github.com:hipchat/hubot-hipchat.git Warning: Permanently added the RSA host key for IP address '192.30.252.130' to the list of known hosts.
+41 verbose git clone git@github.com:git@github.com:hipchat/hubot-hipchat.git Permission denied (publickey).
+41 verbose git clone git@github.com:git@github.com:hipchat/hubot-hipchat.git fatal: The remote end hung up unexpectedly
+42 silly lockFile 311b6a1e-ub-com-hipchat-hubot-hipchat-git git@github.com:git@github.com:hipchat/hubot-hipchat.git
+43 silly lockFile 5f843a5d-ub-com-hipchat-hubot-hipchat-git hubot-hipchat@git@github.com:hipchat/hubot-hipchat.git
+44 silly lockFile 5f843a5d-ub-com-hipchat-hubot-hipchat-git hubot-hipchat@git@github.com:hipchat/hubot-hipchat.git
+45 error notarget No compatible version found: hubot-hipchat@'git@github.com:hipchat/hubot-hipchat.git'
+45 error notarget Valid install targets:
+45 error notarget ["1.0.0","1.0.1","1.0.2","1.0.3","1.0.4","1.0.5","1.0.6","1.0.7","1.0.8","1.0.9","1.0.10","1.0.11","1.1.0","1.1.1","1.1.2","1.1.3","1.1.4","2.4.2","2.4.5","2.4.5-1","2.5.1-1","2.5.1-2","2.5.1-3","2.5.1-4","2.5.1-5"]
+45 error notarget
+45 error notarget This is most likely not a problem with npm itself.
+45 error notarget In most cases you or one of your dependencies are requesting
+45 error notarget a package version that doesn't exist.
+46 error System Linux 3.2.0-56-generic-pae
+47 error command "/usr/bin/node" "/usr/bin/npm" "install"
+48 error cwd /home/zahid/Projects/yabot
+49 error node -v v0.10.22
+50 error npm -v 1.3.14
+51 error code ETARGET
+52 verbose exit [ 1, true ]
